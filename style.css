@@ -1,0 +1,83 @@
+
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
+body{
+    background-color:rgba(228, 228, 178, 0.77);
+}
+nav{
+    position: relative;
+    margin-left: 37%;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.507);
+    padding:1px 0px;
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: 0.6s;
+    width: 400px;
+    border-radius: 40px;
+    font-family: gilroy;
+}
+nav:hover{
+    background-color: rgba(13, 14, 14, 0.116);
+}
+#show{
+    margin-top:3%;
+    /* background-color: aqua; */
+}
+#show_container{
+    height: 25px;
+    width:300px;
+    border:1px solid black;
+    padding:5px 10px;
+    font-size:20px;
+    font-family: gilroy;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 900;
+    transition:0.6s;
+}
+
+#number{
+    text-align: center;
+    margin-top:0px;
+}
+
+#number tr td button{
+    padding : 10px 30px;
+    border-radius: 50px;
+    color:white;
+    font-weight: 600;
+    border:2px solid black;
+    background-color:rgba(128, 128, 128, 0.643);
+    font-size:20px;
+    transition: 0.6s;
+
+}
+#number tr td button:hover{
+    background-color: transparent;
+    border-radius: 10px;
+    color:black
+}
+
+.btn2{
+    background-color: rgba(0, 0, 0, 0.308);
+    border:2px solid dotted;
+    border-radius: 10px;
+    color:white;
+    font-weight:500;
+    font-size:20px;
+    width: 330px;
+    margin-top:10px;
+    height: 35px;
+    font-family: gilroy;
+    transition: 0.6s;
+}
+.btn2:hover{
+    background-color: rgba(240, 248, 255, 0.766);
+    color:black
+}
